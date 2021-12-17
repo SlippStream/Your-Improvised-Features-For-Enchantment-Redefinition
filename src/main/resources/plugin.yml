@@ -1,5 +1,11 @@
-name: Your Improvised Features For Enchantment Redefinition
+name: Your-Improvised-Features-For-Enchantment-Redefinition
 version: '${project.version}'
-main: me.slippstream.yiffer.Yiffer
+main: me.slippstream.yiffer.YifferMain
 api-version: 1.18
 authors: [ SlippStream, dmatlock11 ]
+commands:
+  test:
+    description: Does whatever
+    usage: /<command>
+    aliases:
+      - test
