@@ -1,0 +1,5 @@
+name: Your Improvised Features For Enchantment Redefinition
+version: '${project.version}'
+main: me.slippstream.yiffer.Yiffer
+api-version: 1.18
+authors: [ SlippStream, dmatlock11 ]
