@@ -9,10 +9,12 @@ import java.util.ArrayList;
 public class YifferEnchantments {
     private static final ArrayList<YifferEnchantmentWrapper> all_enchantments = new ArrayList<>();
     public static final YifferEnchantmentWrapper SWIFTNESS = new Swiftness(YifferMain.getPlugin());
+    public static final YifferEnchantmentWrapper VAMPIRISM = new Vampirism(YifferMain.getPlugin());
 
     //Only to be called once at the initialization of the plugin
     public static void registerEnchantments() {
         all_enchantments.add(SWIFTNESS);
+        all_enchantments.add(VAMPIRISM);
 
         for (Enchantment e : all_enchantments) {
             registerEnchant(e);
